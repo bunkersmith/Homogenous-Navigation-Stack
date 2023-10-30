@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		670D2B7F2AF06666002F384E /* Homogenous_Navigation_StackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D2B7E2AF06666002F384E /* Homogenous_Navigation_StackApp.swift */; };
-		670D2B812AF06666002F384E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D2B802AF06666002F384E /* ContentView.swift */; };
 		670D2B832AF06667002F384E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670D2B822AF06667002F384E /* Assets.xcassets */; };
 		670D2B862AF06667002F384E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670D2B852AF06667002F384E /* Preview Assets.xcassets */; };
+		670D2B8D2AF06752002F384E /* CealUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D2B8C2AF06752002F384E /* CealUIApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		670D2B7B2AF06666002F384E /* Homogenous Navigation Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homogenous Navigation Stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		670D2B7E2AF06666002F384E /* Homogenous_Navigation_StackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homogenous_Navigation_StackApp.swift; sourceTree = "<group>"; };
-		670D2B802AF06666002F384E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		670D2B822AF06667002F384E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		670D2B852AF06667002F384E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		670D2B8C2AF06752002F384E /* CealUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CealUIApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				670D2B7E2AF06666002F384E /* Homogenous_Navigation_StackApp.swift */,
-				670D2B802AF06666002F384E /* ContentView.swift */,
 				670D2B822AF06667002F384E /* Assets.xcassets */,
 				670D2B842AF06667002F384E /* Preview Content */,
+				670D2B8C2AF06752002F384E /* CealUIApp.swift */,
 			);
 			path = "Homogenous Navigation Stack";
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				670D2B812AF06666002F384E /* ContentView.swift in Sources */,
+				670D2B8D2AF06752002F384E /* CealUIApp.swift in Sources */,
 				670D2B7F2AF06666002F384E /* Homogenous_Navigation_StackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

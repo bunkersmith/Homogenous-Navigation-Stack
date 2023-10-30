@@ -11,7 +11,12 @@ import SwiftUI
 struct Homogenous_Navigation_StackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                OnboardingView()
+                .navigationDestination(for: Route.self) { route in
+                    route.view
+                }
+            }
         }
     }
 }
